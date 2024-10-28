@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "portfolios",
+  "info": {
+    "singularName": "portfolio",
+    "pluralName": "portfolios",
+    "displayName": "portfolio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MyName": {
+      "type": "string"
+    },
+    "AboutMe": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "string"
+    },
+    "ProjectDescription": {
+      "type": "blocks"
+    },
+    "AboutDescription": {
+      "type": "blocks"
+    }
+  }
+}
